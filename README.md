@@ -1,5 +1,6 @@
 # Streamy App
-![Streamy Home-page](https://github.com/Fergasi/final-project/blob/main/Assets/Screen%20Shot%202022-05-08%20at%204.05.08%20PM.png?raw=true)
+
+![Streamy Home-page](https://github.com/Fergasi/Streamy/blob/main/Assets/Screen%20Shot%202022-05-08%20at%204.05.08%20PM.png?raw=true)
 
 ## Description
 
@@ -7,7 +8,7 @@ Streamy is a streaming availability and movie/title details site, consider it si
 
 ## Features
 
-1. Auto-populating home-page / landing-page will display 50 randomly selected titles released within the last 5 years. 
+1. Auto-populating home-page / landing-page will display 50 randomly selected titles released within the last 5 years.
 
 2. The search bar in the header of the page will allow users to search for titles by typing in their name (or a word contained in the name), and will display all titles ascociated.
 
@@ -15,14 +16,14 @@ Streamy is a streaming availability and movie/title details site, consider it si
 
 4. All titles displayed in either the homepage or search results will also include a dropdown container 'More Details' which will display the following information: Type of media (TV Series, Movie, Documentary, etc.), primary language of the title (English, Spanish, etc.), IMDB score/rating (out of 10), and finally hyperlinks to all available streaming providers for the specific title.
 
-Note: 
+Note:
 
-* If you click on the Streamy Icon the page will be refreshed and returned to the home-page.
+- If you click on the Streamy Icon the page will be refreshed and returned to the home-page.
 
-* If you click on the IMBD logo/icon in the 'More Details' section of the title thumbnail, a hyperlink will load the Title in the IMDB site. 
+- If you click on the IMBD logo/icon in the 'More Details' section of the title thumbnail, a hyperlink will load the Title in the IMDB site.
 
-* The API used for this project is OTT-Deatils: https://rapidapi.com/gox-ai-gox-ai-default/api/ott-details
+- The API used for this project is OTT-Deatils: https://rapidapi.com/gox-ai-gox-ai-default/api/ott-details
 
-* The site is totally responsive and can work on mobile, tablet and computer displays. 
+- The site is totally responsive and can work on mobile, tablet and computer displays.
 
-![Streamy Mobile](https://github.com/Fergasi/final-project/blob/main/Assets/Screen%20Shot%202022-05-08%20at%204.05.59%20PM.png?raw=true)
+![Streamy Mobile](https://github.com/Fergasi/Streamy/blob/main/Assets/Screen%20Shot%202022-05-08%20at%204.05.59%20PM.png?raw=true)
