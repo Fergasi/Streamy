@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streamy</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script type='text/javascript' src='apiKey.js'></script>
+    <script src="main.js" defer></script>
+    <script src="https://kit.fontawesome.com/494f07e534.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- The header that contains the title and the Search bar -->
+    <header>
+        <div id="logoIcon"><a href="index.html"><img id="logo" src="https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/22/58/45/2258458e-6c0a-7770-9a95-8273ac76bcb7/AppIcon-0-0-85-220-0-4-2x-0-0.png/1200x600bf.png"></a></div>
+        <h1>Streamy</h1>
+        <form id="form">
+            <input
+                type="text"
+                id="search"
+                class="search"
+                autocomplete="off"
+            />
+            <div class="wrapper">
+                <button class="">
+                  <span>Search</span>
+                  <div class="success">
+                  <svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  viewBox="0 0 29.756 29.756" style="enable-background:new 0 0 29.756 29.756;" xml:space="preserve">
+                    
+                <path d="M29.049,5.009L28.19,4.151c-0.943-0.945-2.488-0.945-3.434,0L10.172,18.737l-5.175-5.173   c-0.943-0.944-2.489-0.944-3.432,0.001l-0.858,0.857c-0.943,0.944-0.943,2.489,0,3.433l7.744,7.752   c0.944,0.943,2.489,0.943,3.433,0L29.049,8.442C29.991,7.498,29.991,5.953,29.049,5.009z"/>
+               </svg>
+                    </div>
+                </button>
+              </div>
+        </form>
+    </header>
+
+    <!-- The main tag where we are going to put all our movies that we got from the API -->
+    <main id="main"></main>
+    
+</body>
+</html>

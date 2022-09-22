@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: -webkit-linear-gradient(360deg, #390864 10%, #10062b 100%)
+}
+header{
+    width: 100%;
+    height: fit-content;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    border-bottom: 5px solid rgb(137, 20, 184);
+    position: fixed;
+    top: 0;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+header h1{
+    margin-right: 2vw;
+    color: #fff;
+    justify-content: flex-start;
+    margin-bottom: 3px;
+    font-weight: 500;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#logo{
+    width: 14vh;
+    padding-left: 0px;
+}
+header form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2%;
+}
+/* The search bar */
+#search{
+    min-width: 280px;
+    width:fit-content;
+    height: 30px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 20px;
+    margin-left: 15px;
+    text-indent: 15px;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 15vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: -webkit-linear-gradient(360deg, #390864 10%, #10062b 100%)
+}
+main h1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(197, 175, 231);
+    margin-top: 30vh;
+}
+.thumbnail{
+    width: 250px;
+    height: fit-content;
+    min-height: 573px;
+    margin: 15px 19px;
+    padding: 3px;
+    background: purple;
+    border-radius: 15px;
+    box-shadow: 2px 5px rgb(22, 22, 22);
+}
+img{
+    width: 100.1%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+h2{
+    font-size: 18px;
+    font-family:sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    padding: 5%;
+    height:fit-content;
+}
+main div footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+main div section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+section p{
+    padding-top: 4px;
+}
+.imdb{
+    width: 50px;
+    height: 20px;
+    border-right: 100px;
+}
+
+details {
+    user-select: none;
+    display: flex;
+    padding-top: 5px;
+}
+  
+details>summary i {
+    padding-top: 2px;
+    padding-left: 1px;
+    transition: all 0.3s;
+    
+}
+
+details>summary p {
+    padding-top: 2px;
+    padding-left: 1px;
+    transition: all 0.3s;
+}
+
+details[open] summary p {
+    transition: all 0.6s;
+}
+  
+details[open] summary i {
+    
+    transform:rotate(90deg) translateY(+4px) translateX(-4px);
+}
+.syn {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+details p div {
+    padding: 5px;
+}
+
+details p section {
+    padding: 5px;
+}
+  
+summary {
+    display: flex;
+    cursor: pointer;
+    font-weight: bold;
+    justify-content: center;
+}
+
+p{
+    text-align: center;
+}
+
+i{
+    padding-bottom: 10px
+}
+
+#links{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content:center;
+    font-size: 13px;
+}
+
+li {
+    list-style-type:none;
+    padding:5px
+} 
+
+section h3{
+    padding-top: 3px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+footer h3 {
+    margin: 3px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.lds-ring {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    padding-top: 40vh;
+}
+.lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 6px solid rgb(192, 78, 207);
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: rgb(192, 78, 207) transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+a { 
+    color: blue;
+}
+
+.wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+  
+button{
+    font-family: sans-serif;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: min-content;
+    height: 29.4px;
+    line-height: 1;
+    font-size:80%;
+    letter-spacing: 1px;
+    border: 2px solid rgb(137, 20, 184);
+    background: black;
+    color: rgb(137, 20, 184);
+    border-radius: 40px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all .35s;
+    padding-bottom: 1px;
+}
+  
+button:hover{
+    background: #a946ff;
+    color: black;
+}
+  
+button span{
+    opacity: 1;
+    visibility: visible;
+    transition: all .35s;
+}
+  
+.success{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    border-radius: 50%;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .35s;
+}
+
+.wrapper span {
+    padding-left: 9px;
+    padding-right: 9px;
+}
