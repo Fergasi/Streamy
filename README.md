@@ -25,5 +25,3 @@ Note:
 - The API used for this project is OTT-Deatils: https://rapidapi.com/gox-ai-gox-ai-default/api/ott-details
 
 - The site is totally responsive and can work on mobile, tablet and computer displays.
-
-![Streamy Mobile](https://github.com/Fergasi/Streamy/blob/main/Assets/Screen%20Shot%202022-05-08%20at%204.05.59%20PM.png?raw=true)
